@@ -6,3 +6,10 @@ Este programa sera un juego de ahorcado donde se podra seleccionar si jugar indi
 
 # ¿Por qué?
 Para este proyecto elegí el juego del ahorcado. Esto debido a que me ayudará a retar mis conocimientos de la programación, al igual que practicar todo lo que aprenda desde que inicie el proyecto hasta finalizarlo. A su vez, el juego de ahorcado me parece interesante ya que lo podría usar hasta en otros idiomas para aprender distintas palabras de forma aleatoria y, por último, también lo elegí ya que lo puedo usar para hacer algo en algún tiempo libre que tenga y, en el caso del modo de dos jugadores, usarlo con otras personas para pasar el rato.
+
+# Instrucciones
+Descargar el arvhivo:
+python codigo_ahorcado.py
+Correrlo en terminal o abrir en Thonny y darle al boton de play.
+Jugar al ahorcado con las instrucciones descritas anteriormente
+Gracias por visitar
