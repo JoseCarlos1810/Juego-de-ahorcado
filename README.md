@@ -9,7 +9,11 @@ Para este proyecto elegí el juego del ahorcado. Esto debido a que me ayudará a
 
 # Instrucciones
 Descargar el arvhivo:
+
 python codigo_ahorcado.py
+
 Correrlo en terminal o abrir en Thonny y darle al boton de play.
+
 Jugar al ahorcado con las instrucciones descritas anteriormente
+
 Gracias por visitar
