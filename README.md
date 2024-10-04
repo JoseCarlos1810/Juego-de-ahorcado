@@ -19,3 +19,71 @@ Correrlo en terminal o abrir en Thonny y darle al boton de play.
 Jugar al ahorcado con las instrucciones descritas anteriormente
 
 Gracias por visitar
+# Algoritmo
+### Entradas
+Modo al que se jugara
+
+En caso de ser de dos jugadores o prueba, ingresar la palabra
+
+Letras (Para adivinar la palabra)
+### Proceso
+Solicitar al usuario elegir un modo de juego, individual, de dos jugadores, tutorial o prueba
+
+Si elije el modo individual:
+
+•	Elegir aleatoriamente una palabra de una lista de palabras
+
+•	Mostrar el mástil donde ira el ahorcado
+
+•	Mostrar los guiones donde irán las letras
+
+•	Solicitar al usuario letras para completar la palabra
+
+•	Si la letra está en la palabra ponerlas en la pantalla las veces que se repita
+
+•	Si la letra no está en la palabra ponerle al muñeco una parte más, iniciando con la cabeza, luego los ojos, luego la boca, luego el cuerpo, luego un brazo, luego el otro, luego una pierna y por último la otra pierna. También se mostrarán las letras que haya intentado, pero no estuvieran en la palabra
+
+•	Mientras no se complete el ahorcado, se le seguirá pidiendo letras hasta que gane completando la palabra o pierda completando el ahorcado
+
+Si elije el modo de dos jugadores:
+
+•	Pedir una palabra al jugador uno
+
+•	Mostrar el mástil donde ira el ahorcado
+
+•	Mostrar los guiones donde irán las letras
+
+•	Solicitar al jugador dos letras para completar la palabra
+
+•	Si la letra está en la palabra ponerlas en la pantalla las veces que se repita
+
+•	Si la letra no está en la palabra ponerle al muñeco una parte más, iniciando con la cabeza, luego los ojos, luego la boca, luego el cuerpo, luego un brazo, luego el otro, luego una pierna y por último la otra pierna. También se mostrarán las letras que haya intentado, pero no estuvieran en la palabra
+
+•	Mientras no se complete el ahorcado, se le seguirá pidiendo letras hasta que gane completando la palabra o pierda completando el ahorcado
+Si elije el modo tutorial:
+
+•	Dar una explicación extensa de las reglas y funcionamiento del ahorcado como lo que se acepta y lo que no se acepta en el código
+
+•	Después de eso, usar el modo individual, pero la palabra que se seleccionó será siempre “ahorcado”, lo demás funcionará como el modo individual
+
+Si elije el modo de prueba:
+
+•	Se le pedirá al usuario que ingrese una palabra como en el modo de dos jugadores
+
+•	Una vez el jugador ingrese la palabra, la computadora jugara el ahorcado seleccionando letras aleatoriamente 
+### Salidas
+Si adivina la palabra, mostrar mensaje “Felicidades, adivinaste la palabra”
+
+Si completa el ahorcado por no adivinar la palabra, mostrar mensaje “Perdiste, el muñeco murió”
+
+Dibujos del muñeco
+
+Palabra que se tenía que adivinar
+
+Letras que son incorrectas
+
+Letras que son correctas
+
+Espacios de la palabra
+
+
