@@ -67,7 +67,8 @@ dibujo= [
 ''']
 
 #Esta función es un caso prueba el cual elejira letras random para completar la palabra que se ponga en la terminal
-def pruebas(palabra):
+def pruebas():
+    palabra=tu_ponla()
     intentos=0
     palabra_prueba=list(palabra)
     abecedario=list('abcdefghijklmnñopqrstuvwxyz')
@@ -174,6 +175,7 @@ def menu2():
     print("2. Tu pon la palabra")
     print("3. Tutorial")
     print("4. Salir")
+    print("5. Prueba")
     
 #Esta es una función donde se le pregunta al usuario que opción del menu quiere elegir y llamar a la función ahorcado de la forma que eliga el usuario
 def main():
@@ -181,7 +183,7 @@ def main():
     while continuar:
         menu2()
         op=input("Qué quieres hacer: ")
-        if op!="1" and op!="2" and op!="3" and op!="4":
+        if op!="1" and op!="2" and op!="3" and op!="4" and op!="5":
             print("Lo que pusiste es incorrecto")
         else:
             if op=="1":
@@ -192,5 +194,7 @@ def main():
                 ahorcado(3)
             elif op=="4":
                 continuar=False
-pruebas('prueba')
+            elif op=="5":
+                pruebas()
+                
 main()
