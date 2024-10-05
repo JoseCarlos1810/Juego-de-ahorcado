@@ -66,6 +66,28 @@ dibujo= [
 =========
 ''']
 
+#Esta función mostrara un mensaje ganador o perdedor según sea el caso
+def resultado(intentos):
+    if intentos==6:
+        print("""
+██████╗░███████╗██████╗░██████╗░██╗░██████╗████████╗███████╗
+██╔══██╗██╔════╝██╔══██╗██╔══██╗██║██╔════╝╚══██╔══╝██╔════╝
+██████╔╝█████╗░░██████╔╝██║░░██║██║╚█████╗░░░░██║░░░█████╗░░
+██╔═══╝░██╔══╝░░██╔══██╗██║░░██║██║░╚═══██╗░░░██║░░░██╔══╝░░
+██║░░░░░███████╗██║░░██║██████╔╝██║██████╔╝░░░██║░░░███████╗
+╚═╝░░░░░╚══════╝╚═╝░░╚═╝╚═════╝░╚═╝╚═════╝░░░░╚═╝░░░╚══════╝
+""")
+    else:
+        print("""
+
+░██████╗░░█████╗░███╗░░██╗░█████╗░░██████╗████████╗███████╗
+██╔════╝░██╔══██╗████╗░██║██╔══██╗██╔════╝╚══██╔══╝██╔════╝
+██║░░██╗░███████║██╔██╗██║███████║╚█████╗░░░░██║░░░█████╗░░
+██║░░╚██╗██╔══██║██║╚████║██╔══██║░╚═══██╗░░░██║░░░██╔══╝░░
+╚██████╔╝██║░░██║██║░╚███║██║░░██║██████╔╝░░░██║░░░███████╗
+░╚═════╝░╚═╝░░╚═╝╚═╝░░╚══╝╚═╝░░╚═╝╚═════╝░░░░╚═╝░░░╚══════╝
+        """)
+
 #Esta función es un caso prueba el cual elejira letras random para completar la palabra que se ponga en la terminal
 def pruebas():
     palabra=tu_ponla()
@@ -84,6 +106,7 @@ def pruebas():
             if adivinar==palabra_prueba:
                 print("Felicidades, adivinaste la palabra")
                 final()
+                resultado(intentos)
                 break
         else:
             intentos+=1
@@ -93,6 +116,7 @@ def pruebas():
         print("Perdiste, el muñeco murió")
         print("La palabra era:", palabra_prueba)
         final()
+        resultado(intentos)
 
 #Esta es una función donde se elegira una palabra random de una lista de varias palabras
 def palabra_random():
@@ -159,6 +183,7 @@ def ahorcado(p):
             if adivinar==letras:
                 print("Felicidades, adivinaste la palabra")
                 final()
+                resultado(intentos)
                 break
         else:
             intentos+=1
@@ -168,6 +193,7 @@ def ahorcado(p):
         print("Perdiste, el muñeco murió")
         print("La palabra era:", palabra_ahorcado)
         final()
+        resultado(intentos)
         
 #Esta es una función donde se despliega el menu de opciones para que el usuario vea que puede hacer    
 def menu2():
