@@ -10,15 +10,18 @@ Para este proyecto elegí el juego del ahorcado. Esto debido a que me ayudará a
 # ¿Cómo funciona?
 Este codigo funciona a base de listas, ciclos, condicionales y distintas funciones básicas como el print y el input. En este caso se uso listas para las palabras y letras que se usan en el ahorcado, junto con ello, las condicionales sirvieron para verificar si había o no una letra dentro de la palabra, usando los ciclos para verificar las posiciones donde se encontraba o encontraban las letras, esto solo fue en el juego del ahorcado, también se usaron para poder jugar nuevamente sin tener que salir y para verificar que tipo de juego querías.
 # Instrucciones
-Descargar el arvhivo:
+Descargar los arvhivos:
 
-python codigo_ahorcado.py
+python codigo_ahorcado.py y el archivo palabras.txt
+
+Poner ambos archivos dentro de la misma carpeta
 
 Correrlo en terminal o abrir en Thonny y darle al boton de play.
 
 Jugar al ahorcado con las instrucciones descritas anteriormente
 
-Gracias por visitar
+En caso de no tener python, seguir el siguiente tutorial: https://www.youtube.com/watch?v=pXvJGYdydL8
+
 # Algoritmo
 ### Entradas
 Modo al que se jugara
@@ -85,5 +88,7 @@ Letras que son incorrectas
 Letras que son correctas
 
 Espacios de la palabra
+
+# Gracias por visitar
 
 
