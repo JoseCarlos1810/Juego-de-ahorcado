@@ -154,9 +154,7 @@ def tu_ponla():
 def corregir_palabra(palabra):
     palabra_minusculas=palabra.lower()
     palabra_ahorcado=normalize('NFKD', palabra_minusculas).encode('ASCII', 'ignore').decode('ASCII')
-    ultima=len(palabra)
-    palabra_final=palabra_ahorcado[:-1]
-    return palabra_final
+    return palabra_ahorcado
 
 #Esta es una función donde se hace una lista de espacios en blanco para saber la longitud de la palabra
 def espacio_palabras(letras):
@@ -180,7 +178,8 @@ def ahorcado(op):
     intentos=0
     print("Solo hay letras del abecedario, en caso de poner un número o símbolo, se contará como incorrecto")
     if op==1:
-        palabra=palabra_random()
+        palabra_mal=palabra_random()
+        palabra=palabra_mal[:-1]
     elif op==2:
         palabra=tu_ponla()
     elif op==3:
